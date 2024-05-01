@@ -1,0 +1,16 @@
+strike.gotoAndStop(3);
+_root.score = _root.score + 1100 * strikeFactor;
+_root.pointDisplay = 1100 * strikeFactor;
+_root.pointPanel.gotoAndStop(2);
+pins.pin1.gotoAndStop(2);
+pins.pin2.gotoAndStop(1);
+pins.pin3.gotoAndStop(2);
+pins.pin4.gotoAndStop(1);
+pins.pin5.gotoAndStop(1);
+pins.pin6.gotoAndStop(1);
+cogsstanding = 2;
+strikeFactor = 1;
+_root.ballsLeft--;
+timer.play();
+goodComment();
+stop();

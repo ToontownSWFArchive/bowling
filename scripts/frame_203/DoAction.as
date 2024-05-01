@@ -1,0 +1,13 @@
+_root.pointPanel.gotoAndStop(3);
+pins.pin1.gotoAndStop(2);
+pins.pin2.gotoAndStop(2);
+pins.pin3.gotoAndStop(2);
+pins.pin4.gotoAndStop(2);
+pins.pin5.gotoAndStop(2);
+pins.pin6.gotoAndStop(2);
+cogsstanding = 6;
+_root.ballsLeft--;
+strikeFactor = 1;
+timer.play();
+badComment();
+stop();
